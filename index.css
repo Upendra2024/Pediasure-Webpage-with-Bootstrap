@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.abs-container {
+  position: absolute;
+  width: 100%;
+  top: 2.5rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  margin: 0.1rem auto;
+  width: 85vw;
+}
+
+.container input {
+  outline: 0;
+  border: none;
+  background: #fff;
+  color: #555;
+  height: 2.5rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+.container a {
+  position: relative;
+  right: 2.5rem;
+  background: #00b140;
+  border-radius: 50%;
+}
+.container a img {
+  padding: 1.3rem;
+  width: 2rem;
+  cursor: pointer;
+  background-image: url(./Assets/search.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+}
+.hr-left {
+  height: 1rem;
+  color: #fff;
+  width: 5rem;
+  top: 5rem;
+}
+
+/* //navbar */
+/* .nav-two .nav-item a {
+  color: green;
+} */
+.nav-two .nav-item a {
+  color: #00b140;
+  font-weight: 500;
+  border-bottom: 5px solid #00b140;
+  /* transform: translateY(-0.5rem); */
+}
+
+.nav-two .nav-item a {
+  transition: border-bottom 0.2s ease-out;
+}
+.nav-two .nav-item a:hover {
+  border-bottom: 1rem solid #00b140 !important;
+}
+.nav-two .navbar {
+  height: 6em;
+}
+.nav-two .nav-item {
+  height: 2em;
+}
+div .social-link {
+  width: 4rem;
+  height: 4rem;
+}
